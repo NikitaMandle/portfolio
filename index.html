@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>protfolio website</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">NIKITA'S Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li> <a href="index.html">Home</a></li>
+                    <li> <a href="about.html">About Me</a></li>
+                    <li> <a href="skill.html">Skills</a></li>
+                    <li> <a href="project.html">Projects</a></li>
+                    <li> <a href="contact.html">Contact Me </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+<main> 
+    <section class="first-section">
+<div class="left-section">Hi, My name is <span class="purple">Nikita</span>
+   <div>and currently B.Tech student  </div> 
+   <span id="element"></span>
+</div>
+
+
+<div class="right-section">
+<img src="bg.png" alt="error">
+</div>
+    </section>
+
+    <hr>
+
+
+
+</main>
+
+<!-- js -->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+ <!-- Setup and start animation! -->
+ <script>
+    var typed = new Typed('#element', {
+      strings: ['at KITS university','in Computer Technology.'],
+      typeSpeed: 50,
+    });
+  </script>
+
+
+</body>
+</html>
